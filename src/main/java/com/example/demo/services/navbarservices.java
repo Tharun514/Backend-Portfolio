@@ -8,7 +8,7 @@ public interface navbarservices {
 	public String insert(navbarmodels n);
 	public String update(navbarmodels n,Integer id);
 	public List<navbarmodels> getall();
-	
+	public String deleteby(Integer id);
 	
 
 }
